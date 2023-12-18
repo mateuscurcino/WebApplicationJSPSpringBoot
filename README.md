@@ -23,7 +23,7 @@ As tabelas são criadas automaticamente pelo código, considerando a estrutura i
 Para executar o projeto utilizar o comando: mvn spring-boot:run
 
 Para executar somente os testes unitários: mvn test
-*Os testes foram implementados para as classes Service existentes no projeto
+Os testes foram implementados para as classes Service existentes no projeto
 
 Conforme proposto na especificação, a aplicação dispõe de webservices para o cadastro de novas pessoas e também para associá-las aos projetos (membro).
 
