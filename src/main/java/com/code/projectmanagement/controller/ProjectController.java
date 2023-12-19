@@ -36,7 +36,7 @@ public class ProjectController {
     public void initBinder(WebDataBinder binder) {
         // Date - dd/MM/yyyy
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-        binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, false));
+        binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
     }
 
     //redirect the root path to the list projects page
